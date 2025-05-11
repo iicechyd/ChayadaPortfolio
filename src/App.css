@@ -1,38 +1,153 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+.App-header{
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  background-image: linear-gradient(110.8deg, rgba(5,4,47,1) -1.8%, rgba(59,2,136,1) 114.5%);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.App-footer{
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(110.8deg, rgba(5,4,47,1) -1.8%, rgba(59,2,136,1) 114.5%);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.line-space {
+  margin-top: 12px;
+  display: inline-block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.custom-text-bold {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.custom-text {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.custom-text-p {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.blinking-cursor {
+  display: inline-block;
+  animation: blink 0.8s step-start infinite;
+  font-weight: bold;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
   }
 }
+
+.slide-up-text {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: slideUp 1.2s ease-out forwards;
+  animation-delay: 0.3s;
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.custom-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.custom-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.curved-section {
+  clip-path: ellipse(75% 100% at 50% 100%);
+  background-color: white;
+  height: 100px;
+}
+
+.curved-section-footer {
+  clip-path: ellipse(75% 100% at 50% 0%);
+  background-color:  white;
+  height: 100px;
+}
+
+.background-wrapper {
+  background-color: #282c34;
+  background-image: linear-gradient(110.8deg, rgba(5,4,47,1) -1.8%, rgba(59,2,136,1) 114.5%);
+  position: relative;
+}
+
+.custom-gallery-modal .modal-content {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  color: white;
+}
+
+.custom-gallery-modal .modal-header {
+  border-bottom: none;
+}
+
+.custom-gallery-modal .modal-body {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.custom-gallery-modal {
+  max-width: 100vw;
+  margin: 0;
+}
+
+.modal.show {
+  padding-right: 0 !important;
+}
+
+.card-img-hover {
+  transition: transform 0.5s ease;
+}
+
+.card-img-hover:hover {
+  transform: scale(1.1);
+}
+
