@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ChayadaPortfolio/static/css/main.2cd7b388.css",
+    "main.js": "/ChayadaPortfolio/static/js/main.458a88e4.js",
+    "static/js/453.cbbcd9d1.chunk.js": "/ChayadaPortfolio/static/js/453.cbbcd9d1.chunk.js",
+    "index.html": "/ChayadaPortfolio/index.html",
+    "main.2cd7b388.css.map": "/ChayadaPortfolio/static/css/main.2cd7b388.css.map",
+    "main.458a88e4.js.map": "/ChayadaPortfolio/static/js/main.458a88e4.js.map",
+    "453.cbbcd9d1.chunk.js.map": "/ChayadaPortfolio/static/js/453.cbbcd9d1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2cd7b388.css",
+    "static/js/main.458a88e4.js"
+  ]
+}
