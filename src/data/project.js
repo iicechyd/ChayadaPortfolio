@@ -131,45 +131,45 @@ const projectData = [
         "img/doggyjump/doggyjump2.png",
       ]
     },
-    {
-      id: 10,
-      image: "img/villagers_m/cover_vl.png",
-      title: "Villagers Matching Game",
-      description: "Developed a matching game using VueJS and Vuetify where players match images of characters from Stardew Valley. The objective is to pair all images correctly to win the game.",
-      linkto: "https://iicechyd.github.io/MobileAndWeb2566/VillagersMatching/work3.html",
-      tosource: "https://github.com/iicechyd/MobileAndWeb2566/tree/main/VillagersMatching",
-      gallery: [
-        "img/villagers_m/cover_vl.png",
-        "img/villagers_m/vl_01.png",
-        "img/villagers_m/vl_02.png",
-      ]
-    },
-    {
-      id: 11,
-      image: "img/fruits_m/cover_fruits.png",
-      title: "Fruits Matching Game",
-      description: "Developed a matching game using jQuery and Bootstrap where players match identical fruit images. The objective is to pair all images correctly to win the game.",
-      linkto: "https://iicechyd.github.io/MobileAndWeb2566/FruitsMatching/work1.html",
-      tosource: "https://github.com/iicechyd/MobileAndWeb2566/tree/main/FruitsMatching",
-      gallery: [
-        "img/fruits_m/cover_fruits.png",
-        "img/fruits_m/fruits1.png",
-        "img/fruits_m/fruits2.png",
-      ]
-    },
-    {
-      id: 12,
-      image: "img/animals_m/cover_an.png",
-      title: "Animals Matching Game",
-      description: "Developed a matching game using ReactJS where players match identical animal images. The objective is to pair all images correctly to win the game.",
-      linkto: "https://iicechyd.github.io/MobileAndWeb2566/AnimalsMatching/work4.html",
-      tosource: "https://github.com/iicechyd/MobileAndWeb2566/tree/main/AnimalsMatching",
-      gallery: [
-        "img/animals_m/cover_an.png",
-        "img/animals_m/an_01.png",
-        "img/animals_m/an_02.png",
-      ]
-    },
+    // {
+    //   id: 10,
+    //   image: "img/villagers_m/cover_vl.png",
+    //   title: "Villagers Matching Game",
+    //   description: "Developed a matching game using VueJS and Vuetify where players match images of characters from Stardew Valley. The objective is to pair all images correctly to win the game.",
+    //   linkto: "https://iicechyd.github.io/MobileAndWeb2566/VillagersMatching/work3.html",
+    //   tosource: "https://github.com/iicechyd/MobileAndWeb2566/tree/main/VillagersMatching",
+    //   gallery: [
+    //     "img/villagers_m/cover_vl.png",
+    //     "img/villagers_m/vl_01.png",
+    //     "img/villagers_m/vl_02.png",
+    //   ]
+    // },
+    // {
+    //   id: 11,
+    //   image: "img/fruits_m/cover_fruits.png",
+    //   title: "Fruits Matching Game",
+    //   description: "Developed a matching game using jQuery and Bootstrap where players match identical fruit images. The objective is to pair all images correctly to win the game.",
+    //   linkto: "https://iicechyd.github.io/MobileAndWeb2566/FruitsMatching/work1.html",
+    //   tosource: "https://github.com/iicechyd/MobileAndWeb2566/tree/main/FruitsMatching",
+    //   gallery: [
+    //     "img/fruits_m/cover_fruits.png",
+    //     "img/fruits_m/fruits1.png",
+    //     "img/fruits_m/fruits2.png",
+    //   ]
+    // },
+    // {
+    //   id: 12,
+    //   image: "img/animals_m/cover_an.png",
+    //   title: "Animals Matching Game",
+    //   description: "Developed a matching game using ReactJS where players match identical animal images. The objective is to pair all images correctly to win the game.",
+    //   linkto: "https://iicechyd.github.io/MobileAndWeb2566/AnimalsMatching/work4.html",
+    //   tosource: "https://github.com/iicechyd/MobileAndWeb2566/tree/main/AnimalsMatching",
+    //   gallery: [
+    //     "img/animals_m/cover_an.png",
+    //     "img/animals_m/an_01.png",
+    //     "img/animals_m/an_02.png",
+    //   ]
+    // },
   ];
 
   export default projectData;
